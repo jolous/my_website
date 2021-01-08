@@ -2,6 +2,7 @@ let mouseCursor = document.querySelector(".cursor");
 let navLinks = document.querySelector(".nav-links");
 let pageLink = document.querySelector(".link");
 let atmosfera = document.querySelector("#atmosfera");
+let goToTop = document.querySelector("#goToTop");
 let navSkill = document.querySelector(".skill-links");
 
 
@@ -56,6 +57,14 @@ atmosfera.addEventListener("mouseleave",() => {
 		mouseCursor.classList.remove("link-effect");
 	});
 atmosfera.addEventListener("mouseover",() => {
+		mouseCursor.classList.add("link-effect");
+	});
+
+// goToTop
+goToTop.addEventListener("mouseleave",() => {
+		mouseCursor.classList.remove("link-effect");
+	});
+goToTop.addEventListener("mouseover",() => {
 		mouseCursor.classList.add("link-effect");
 	});
 

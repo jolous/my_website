@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@100;200;300;400;500;600;700&display=swap');
 
+
 :root {
 	/* Color Palette */
 	--primary: #051034;
@@ -136,47 +137,69 @@ body {
 
 /* PROGRESS BAR*/
 .progress {
-  height: 3px;
-  width: 0%;
-  background-color: #fff;
-  position: fixed;
-  top: 0;
-  left: 0;
-  animation: progress 1s linear;
-}
-@keyframes progress {
-  to {
-    background-color: #14ffe2;
-    width: 100%;
-  }
-}
-:root * {
-  /* Pause the animation */
-  animation-play-state: paused;
-  /* Bind the animation to scroll */
-  animation-delay: calc(var(--scroll) * -1s);
-  /* These last 2 properites clean up overshoot weirdness */
-  animation-iteration-count: 1;
-  animation-fill-mode: both;
+	height: 3px;
+	width: 0%;
+	background-color: #fff;
+	position: fixed;
+	top: 0;
+	left: 0;
+	animation: progress 1s linear;
 }
 
+@keyframes progress {
+	to {
+		background-color: #14ffe2;
+		width: 100%;
+	}
+}
+
+:root * {
+	/* Pause the animation */
+	animation-play-state: paused;
+	/* Bind the animation to scroll */
+	animation-delay: calc(var(--scroll) * -1s);
+	/* These last 2 properites clean up overshoot weirdness */
+	animation-iteration-count: 1;
+	animation-fill-mode: both;
+}
+
+/* go to top */
+#goToTop {
+	display: blcok;
+	position: fixed;
+	bottom: 40px;
+	right: 40px;
+	font-size: 1.2rem;
+	border: 2px black solid;
+	color: black;
+	padding: 15px;
+	border-radius: 100px;
+}
+
+#goToTop a{
+	padding: 10px;
+	text-decoration: none;
+	color: black;
+}
+	
 
 
 /*Underline*/
 .underlined {
-  position: relative;
-  margin-right: 1rem;
+	position: relative;
+	margin-right: 1rem;
 }
+
 .underlined:after {
-  content: "";
-  position: absolute;
-  bottom: -10px;
-  left: 0;
-  height: 12px;
-  width: 100%;
-  border: solid 2px;
-  border-color: #000000 transparent transparent transparent;
-  border-radius: 50%;
+	content: "";
+	position: absolute;
+	bottom: -10px;
+	left: 0;
+	height: 12px;
+	width: 100%;
+	border: solid 2px;
+	border-color: #000000 transparent transparent transparent;
+	border-radius: 50%;
 }
 
 
@@ -248,7 +271,7 @@ nav h1 {
 .home-img img {
 	position: relative;
 	z-index: -3;
-	
+
 }
 
 .home-section {
@@ -297,35 +320,38 @@ nav h1 {
 
 
 /* Work Experience */
-.work-section-div h1{
+.work-section-div h1 {
 	font-weight: 300;
 	margin-right: 100px;
-	float: right;	
+	float: right;
 }
-.work-section-div div{
+
+.work-section-div div {
 	clear: both;
 	width: 90%;
 	padding: 40px 100px;
 	margin: 0 auto;
 }
 
-.work-section-div h3{
+.work-section-div h3 {
 	font-weight: bold;
 	position: relative;
-	display:inline;
+	display: inline;
 	background-color: rgba(20, 255, 226, 0.33);
 }
-.work-section-div h3::before{
+
+.work-section-div h3::before {
 	content: "-";
-	width:0;
-   position:absolute;
-   left:-20px;
+	width: 0;
+	position: absolute;
+	left: -20px;
 }
-.work-section-div p:first-of-type{
+
+.work-section-div p:first-of-type {
 	font-weight: 300;
 }
 
-.work-section-div a{
+.work-section-div a {
 	color: black;
 }
 
@@ -335,7 +361,7 @@ nav h1 {
 	position: relative;
 }
 
-.skill-section-div h1{
+.skill-section-div h1 {
 	font-weight: 300;
 	margin-right: 100px;
 	float: right;
@@ -352,7 +378,7 @@ nav h1 {
 .skill-chart {
 	width: 70%;
 	padding: 40px 0;
-	
+
 }
 
 .skill-links {
