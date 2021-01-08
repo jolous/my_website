@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<!--[if IE]><meta http-equiv="X-UA-Compatible" content="IE=edge"><![endif]-->
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+	<meta name="title" content="Ehsan Jolous Jamshidi | Portfolio Website">
+	<meta name="keywords" content="Ehsan Jolous Jamshidi, Resume, Portfolio">
+	<meta name="description" content="Here you can see find my resume">
+	<link rel="icon" href="images/favicon/favicon-96x96.png">
+
+
+	<!-- Open Graph / Facebook -->
+	<meta property="og:type" content="website">
+	<meta property="og:url" content="http://website.com/">
+	<meta property="og:title" content="Ehsan Jolous Jamshidi | Portfolio Website">
+	<meta property="og:description" content="-">
+	<meta property="og:image" content="images/favicon/envtechlogo_square.png">
+
+	<!-- Twitter -->
+	<meta property="twitter:card" content="summary">
+	<meta property="twitter:url" content="http://website.com/">
+	<meta property="twitter:title" content="Name | Login Page">
+	<meta property="twitter:description" content="-">
+	<meta property="twitter:image" content="images/favicon/envtechlogo_square.png">
+
+	<!-- FAVICONS -->
+	<link rel="shortcut icon" href="images/favicon/envtechlogo_square.png">
+	<link rel="apple-touch-icon" href="images/favicon/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="images/favicon/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="images/favicon/apple-icon-114x114.png">
+
+	<!-- CSS -->
+
+	<link rel="stylesheet" href="css/style.css">
+
+
+	<!-- jQuery and JS bundle w/ Popper.js -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.min.js"></script>
+
+	<title>My Portfolio</title>
+</head>
+
+<body>
+	<div class="progress"></div>
+	<div class="cursor"></div>
+
+	<!-- Nav bar -->
+
+	<nav>
+		<h1>Ehsan Jolous Jamshidi</h1>
+		<ul class="nav-links">
+			<li><a href="#">HOME</a></li>
+			<li><a href="#skillSection">SKILLS</a></li>
+			<li><a href="#">WORK EXPERIENCE</a></li>
+			<li><a href="#">ACTIVITIES</a></li>
+			<li><a href="#">CERTIFICATES</a></li>
+			<li><a href="#">CONTACT</a></li>
+		</ul>
+	</nav>
+
+	<!-- Home -->
+
+	<section class="home-section">
+		<div class="home-linkdin">
+			<a href="https://www.linkedin.com/in/ehsan-jolous-jamshidi-19a2b6146/" target="_blank" class="link"><img src="images/linkdin.png" /></a>
+		</div>
+		<div class="home-img">
+			<img src="images/Ehsan.jpg">
+		</div>
+		<div class="home-desc">
+			<h1>Hello,<br />My name is Ehsan.<br />I am a <ins><u><span class="text"></span></u></ins>.</h1>
+			<p>Enthusiastic and experienced data scientist with proven expertise in front-end development, data analytics, Python, SQL/No-SQL databases.</p>
+		</div>
+
+	</section>
+	
+	
+	
+	<!-- Skill -->
+
+	<div class="skill-section-div" id="skillSection">
+		<h1 class="underlined">SKILLS</h1>
+		<section class="skill-section">
+			<div class="skill-chart">
+				<canvas id="marksChart"></canvas>
+			</div>
+
+			<ul class="skill-links">
+				<li class="active" id="skillGeneral">GENERAL</li>
+				<li id="skillProgramming">PROGRAMMING</li>
+				<li id="skillData">DATA SCIENCE</li>
+				<li id="skillWeb">WEB DEVELOPMENT</li>
+				<li id="skillOther">OTHER</li>
+			</ul>
+
+
+		</section>
+	</div>
+
+	<!-- Work Experience -->
+
+	<div class="work-section-div">
+		<h1 class="underlined">WORK EXPERIENCE</h1>
+		<section class="work-section">
+			<div>
+				<h3>Data Scientist (Internship)</h3>
+				<p>Universiti Sains Malaysia, Penang, Malaysia
+					<br />Jan. 2020 - Present
+				</p>
+				<br />
+				<p>Project title: Efficient Outlier Detection of the Coastal Water Temperature.</p>
+				<ul>
+					<li>Worked with NASA API using Python to retrieve satellite images.</li>
+					<li>Created a MongoDB database using Python to store more than 1700 CSV files.</li>
+					<li>Implemented a REST API app using Flask framework.</li>
+					<li>Visualized the parameters measured for the atmosphere-coastal ocean using Plotly.</li>
+					<li>Developed the website for the project.</li>
+					<li>Worked on Apache and Linux Server.</li>
+					<li>Website link: <a href="https://atmosfera.usm.my" target="_blank" id="atmosfera">https://atmosfera.usm.my</a></li>
+				</ul>
+			</div>
+
+
+			<div>
+				<h3>Hardware Engineer</h3>
+				<p>Cyan System, Mashhad, Iran
+					<br />Sept. 2015 - Aug. 2017
+				</p>
+				<br />
+				<p>Co-founded a start-up project which developed a wireless building management system.</p>
+				<ul>
+					<li>Designed a mobile application using PhoneGap.</li>
+					<li>Designed a dashboard using HTML, CSS, and JS for users to track their activities.</li>
+					<li>Worked with AVR Microcontroller and various sensors.</li>
+				</ul>
+			</div>
+
+			<div>
+				<h3>Information Technology Help Desk</h3>
+				<p>Rhine Engineering Pvt. Ltd., Tehran, Iran
+					<br />Aug. 2012 - Sept. 2015
+				</p>
+				<br />
+				<ul>
+					<li>Responsible for designing and maintaining the company's website.</li>
+					<li> Monitoring and supporting the maintenance of computer systems and network.</li>
+					<li>Installing and testing new software, hardware, and printers and training staff.</li>
+				</ul>
+			</div>
+
+			<div>
+				<h3>Robotic Tutor</h3>
+				<p>Khayyam University, Mashhad, Iran
+					<br />Apr. 2011 - Jan. 2012
+				</p>
+				<br />
+				<p>Co-founded a start-up project which developed a wireless building management system.</p>
+				<ul>
+					<li>Tutored over 8 students the basics of robotic engineering.</li>
+					<li>Mentored the students for preparation for robotic competition.</li>
+				</ul>
+			</div>
+
+		</section>
+	</div>
+
+
+
+	
+
+
+
+	<script src="js/app.js"></script>
+
+	<!-- Progress bar -->
+	<script>
+		window.addEventListener('scroll', () => {
+			document.body.style.setProperty('--scroll', window.pageYOffset / (document.body.offsetHeight - window.innerHeight));
+		}, false);
+	</script>
+
+
+	<!-- Chart -->
+	<script src="js/skill.js"></script>
+
+
+
+	<!-- Text effect -->
+	<script src="js/scramble.js"></script>
+	<script>
+		const phrases = ['Data Scientist', 'Web Developer', 'Programmer', 'Photographer'];
+		const el = document.querySelector('.text');
+		const fx = new TextScramble(el);
+		let counter = 0;
+
+		const next = () => {
+			fx.setText(phrases[counter]).then(() => {
+				setTimeout(next, 3000);
+			});
+			counter = (counter + 1) % phrases.length;
+		};
+
+		next();
+	</script>
+
+</body>
+
+</html>
