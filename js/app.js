@@ -6,6 +6,8 @@ let atmosfera = document.querySelector("#atmosfera");
 let mdd = document.querySelector("#mdd");
 let iopixi = document.querySelector("#iopixi");
 let markitso = document.querySelector("#markitso");
+let cloud = document.querySelector("#cloud");
+
 
 let goToTop = document.querySelector("#goToTop");
 let navSkill = document.querySelector(".skill-links");
@@ -89,6 +91,16 @@ markitso.addEventListener("mouseleave",() => {
 		mouseCursor.classList.remove("link-effect");
 	});
 markitso.addEventListener("mouseover",() => {
+		mouseCursor.classList.add("link-effect");
+	});
+
+
+
+// cloud
+cloud.addEventListener("mouseleave",() => {
+		mouseCursor.classList.remove("link-effect");
+	});
+cloud.addEventListener("mouseover",() => {
 		mouseCursor.classList.add("link-effect");
 	});
 
