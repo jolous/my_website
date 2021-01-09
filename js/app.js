@@ -13,13 +13,6 @@ let goToTop = document.querySelector("#goToTop");
 let navSkill = document.querySelector(".skill-links");
 
 
-//form
-let formName = document.querySelector("#formName");
-let formEmail = document.querySelector("#formEmail");
-let formSubject = document.querySelector("#formSubject");
-let formMessage = document.querySelector("#formMessage");
-let formButton = document.querySelector("#formButton");
-
 
 console.log(navLinks.children)
 
@@ -111,50 +104,6 @@ cloud.addEventListener("mouseleave", () => {
 cloud.addEventListener("mouseover", () => {
 	mouseCursor.classList.add("link-effect");
 });
-
-
-
-
-//form
-formName.addEventListener("mouseleave", () => {
-	mouseCursor.classList.remove("link-effect");
-});
-formName.addEventListener("mouseover", () => {
-	mouseCursor.classList.add("link-effect");
-});
-
-
-formEmail.addEventListener("mouseleave", () => {
-	mouseCursor.classList.remove("link-effect");
-});
-formEmail.addEventListener("mouseover", () => {
-	mouseCursor.classList.add("link-effect");
-});
-
-
-formSubject.addEventListener("mouseleave", () => {
-	mouseCursor.classList.remove("link-effect");
-});
-formSubject.addEventListener("mouseover", () => {
-	mouseCursor.classList.add("link-effect");
-});
-
-
-formMessage.addEventListener("mouseleave", () => {
-	mouseCursor.classList.remove("link-effect");
-});
-formMessage.addEventListener("mouseover", () => {
-	mouseCursor.classList.add("link-effect");
-});
-
-formButton.addEventListener("mouseleave", () => {
-	mouseCursor.classList.remove("link-effect");
-});
-formButton.addEventListener("mouseover", () => {
-	mouseCursor.classList.add("link-effect");
-});
-
-
 
 
 // goToTop
