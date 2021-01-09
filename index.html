@@ -71,8 +71,6 @@
 	</script>
 
 
-<!-- Send Email -->
-<script src="https://smtpjs.com/v3/smtp.js"></script>  
 
 	<title>My Portfolio</title>
 </head>
@@ -381,27 +379,30 @@
 		</section>
 	</div>
 
-<input type="button" value="Send Email" onclick="sendEmail()">
-
-<script>
-function sendEmail() {
-	Email.send({
-    SecureToken : "<your generated token>",
-    To : 'ej.jamshidi@gmail.com',
-    From : "sender@example.com",
-    Subject : "Test Email",
-    Body : "<html><h2>Header</h2><strong>Bold text</strong><br></br><em>Italic</em></html>"
-    }).then(
-        message => alert("mail sent successfully")
-    );
-}
-</script>
 
 
 
 
-
-
+<?php
+         $to = "ej.jamshidi@gmail.com";
+         $subject = "This is subject";
+         
+         $message = "<b>This is HTML message.</b>";
+         $message .= "<h1>This is headline.</h1>";
+         
+         $header = "From:ej.jamshidi@gmail.com \r\n";
+         $header .= "Cc:ej.jamshidi@gmail.com \r\n";
+         $header .= "MIME-Version: 1.0\r\n";
+         $header .= "Content-type: text/html\r\n";
+         
+         $retval = mail ($to,$subject,$message,$header);
+         
+         if( $retval == true ) {
+            echo "Message sent successfully...";
+         }else {
+            echo "Message could not be sent...";
+         }
+      ?>
 
 	<script src="js/app.js"></script>
 
