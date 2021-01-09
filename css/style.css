@@ -160,11 +160,13 @@ ins {
 	-webkit-transition: all 0.2s ease-out;
 	transition: all 0.2s ease-out;
 	cursor: none;
-
 }
 
 body {
 	background: #F2F2F2;
+	
+	overflow-x: hidden;
+	overflow-y: auto;
 }
 
 *:before,
