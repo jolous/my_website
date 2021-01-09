@@ -35,7 +35,7 @@
 	<!-- CSS -->
 
 	<link rel="stylesheet" href="css/style.css">
-	
+
 
 
 	<!-- jQuery and JS bundle w/ Popper.js -->
@@ -109,7 +109,7 @@
 
 	</section>
 
-<!-- Education -->
+	<!-- Education -->
 
 	<div class="education-section-div" id="educationSection">
 		<h1 class="underlined">EDUCATION</h1>
@@ -120,7 +120,7 @@
 					<br />2021 - Present
 				</p>
 			</div>
-		
+
 			<div>
 				<h3>Master of Data Science & Analytics</h3>
 				<p>Universiti Sains Malaysia, Penang, Malaysia
@@ -165,16 +165,6 @@
 
 
 
-
-
-
-
-
-
-
-
-
-	
 	<!-- Work Experience -->
 
 	<div class="work-section-div" id="workSection">
@@ -248,7 +238,7 @@
 
 
 
-<!-- Volunteer -->
+	<!-- Volunteer -->
 
 	<div class="work-section-div">
 		<h1 class="underlined">VOLUNTEER</h1>
@@ -273,8 +263,8 @@
 
 
 
-<!-- Freelance -->
-<div class="work-section-div">
+	<!-- Freelance -->
+	<div class="work-section-div">
 		<h1 class="underlined">FREELANCE</h1>
 		<section class="work-section">
 			<div>
@@ -294,7 +284,7 @@
 
 
 
-<!-- Activities -->
+	<!-- Activities -->
 
 	<div class="education-section-div" id="activitiesSection">
 		<h1 class="underlined">ACTIVITIES</h1>
@@ -305,7 +295,7 @@
 					<br />2012
 				</p>
 			</div>
-		
+
 			<div>
 				<h3>Team Member, Khayam University’s Robotic Team</h3>
 				<p>Mashhad, Iran
@@ -319,14 +309,14 @@
 					<br />2010
 				</p>
 			</div>
-			
+
 			<div>
 				<h3>1st place at Provincial Robotic Competitions, ARC Cup</h3>
 				<p>Mashhad, Iran
 					<br />2009
 				</p>
 			</div>
-			
+
 			<div>
 				<h3>3rd place at National Robotic Competitions, Azad University </h3>
 				<p>Birjand, Iran
@@ -339,8 +329,8 @@
 
 
 
-<!-- Certificates -->
-<div class="work-section-div" id="certificatesSection">
+	<!-- Certificates -->
+	<div class="work-section-div" id="certificatesSection">
 		<h1 class="underlined">CERTIFICATES</h1>
 		<section class="work-section">
 			<div>
@@ -358,6 +348,34 @@
 
 
 
+
+	<!-- Contacts -->
+
+
+	<div class="contact-section-div" id="contactSection">
+		<h1 class="underlined">Contact Me</h1>
+		<section class="contact-section">
+			<form action="contact.php" method="post">
+				<div class="elem-group" >
+					<label for="name">Your Name</label>
+					<input id="formName" type="text" id="name" name="visitor_name" placeholder="John Doe" pattern=[A-Z\sa-z]{3,20} required >
+				</div>
+				<div class="elem-group">
+					<label for="email">Your E-mail</label>
+					<input id="formEmail" type="email" id="email" name="visitor_email" placeholder="john.doe@email.com" required>
+				</div>
+				<div class="elem-group">
+					<label for="title">Reason For Contacting Me</label>
+					<input id="formSubject" type="text" id="title" name="email_title" required placeholder="Web design" pattern=[A-Za-z0-9\s]{8,60}>
+				</div>
+				<div class="elem-group">
+					<label for="formMessage">Write your message</label>
+					<textarea id="formMessage" name="visitor_message" placeholder="Say whatever you want." rows="6" required></textarea>
+				</div>
+				<button id="formButton" type="submit">Send Message</button>
+			</form>
+		</section>
+	</div>
 
 
 

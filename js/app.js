@@ -13,13 +13,21 @@ let goToTop = document.querySelector("#goToTop");
 let navSkill = document.querySelector(".skill-links");
 
 
+//form
+let formName = document.querySelector("#formName");
+let formEmail = document.querySelector("#formEmail");
+let formSubject = document.querySelector("#formSubject");
+let formMessage = document.querySelector("#formMessage");
+let formButton = document.querySelector("#formButton");
+
+
 console.log(navLinks.children)
 
 // Mouse movement
 window.addEventListener('mousemove', cursor);
 
 function cursor(e) {
-	
+
 	mouseCursor.style.top = e.pageY + 'px';
 	mouseCursor.style.left = e.pageX + 'px';
 }
@@ -27,11 +35,11 @@ function cursor(e) {
 
 // nav menu
 Array.from(navLinks.children).forEach(link => {
-	link.addEventListener("mouseleave",() => {
+	link.addEventListener("mouseleave", () => {
 		mouseCursor.classList.remove("link-effect");
 		link.classList.remove("hoverred-link");
 	});
-	link.addEventListener("mouseover",() => {
+	link.addEventListener("mouseover", () => {
 		mouseCursor.classList.add("link-effect");
 		link.classList.add("hoverred-link");
 	});
@@ -40,11 +48,11 @@ Array.from(navLinks.children).forEach(link => {
 
 // nav skill
 Array.from(navSkill.children).forEach(skillLink => {
-	skillLink.addEventListener("mouseleave",() => {
+	skillLink.addEventListener("mouseleave", () => {
 		mouseCursor.classList.remove("link-effect");
 		link.classList.remove("hoverred-link");
 	});
-	skillLink.addEventListener("mouseover",() => {
+	skillLink.addEventListener("mouseover", () => {
 		mouseCursor.classList.add("link-effect");
 		link.classList.add("hoverred-link");
 	});
@@ -52,75 +60,107 @@ Array.from(navSkill.children).forEach(skillLink => {
 
 
 // links
-pageLink.addEventListener("mouseleave",() => {
-		mouseCursor.classList.remove("link-effect");
-	});
-pageLink.addEventListener("mouseover",() => {
-		mouseCursor.classList.add("link-effect");
-	});
+pageLink.addEventListener("mouseleave", () => {
+	mouseCursor.classList.remove("link-effect");
+});
+pageLink.addEventListener("mouseover", () => {
+	mouseCursor.classList.add("link-effect");
+});
 
 // atmosfera
-atmosfera.addEventListener("mouseleave",() => {
-		mouseCursor.classList.remove("link-effect");
-	});
-atmosfera.addEventListener("mouseover",() => {
-		mouseCursor.classList.add("link-effect");
-	});
+atmosfera.addEventListener("mouseleave", () => {
+	mouseCursor.classList.remove("link-effect");
+});
+atmosfera.addEventListener("mouseover", () => {
+	mouseCursor.classList.add("link-effect");
+});
 
 
 // mdd
-mdd.addEventListener("mouseleave",() => {
-		mouseCursor.classList.remove("link-effect");
-	});
-mdd.addEventListener("mouseover",() => {
-		mouseCursor.classList.add("link-effect");
-	});
+mdd.addEventListener("mouseleave", () => {
+	mouseCursor.classList.remove("link-effect");
+});
+mdd.addEventListener("mouseover", () => {
+	mouseCursor.classList.add("link-effect");
+});
 
 
 // iopixi
-iopixi.addEventListener("mouseleave",() => {
-		mouseCursor.classList.remove("link-effect");
-	});
-iopixi.addEventListener("mouseover",() => {
-		mouseCursor.classList.add("link-effect");
-	});
+iopixi.addEventListener("mouseleave", () => {
+	mouseCursor.classList.remove("link-effect");
+});
+iopixi.addEventListener("mouseover", () => {
+	mouseCursor.classList.add("link-effect");
+});
 
 
 // markitso
-markitso.addEventListener("mouseleave",() => {
-		mouseCursor.classList.remove("link-effect");
-	});
-markitso.addEventListener("mouseover",() => {
-		mouseCursor.classList.add("link-effect");
-	});
+markitso.addEventListener("mouseleave", () => {
+	mouseCursor.classList.remove("link-effect");
+});
+markitso.addEventListener("mouseover", () => {
+	mouseCursor.classList.add("link-effect");
+});
 
 
 
 // cloud
-cloud.addEventListener("mouseleave",() => {
-		mouseCursor.classList.remove("link-effect");
-	});
-cloud.addEventListener("mouseover",() => {
-		mouseCursor.classList.add("link-effect");
-	});
+cloud.addEventListener("mouseleave", () => {
+	mouseCursor.classList.remove("link-effect");
+});
+cloud.addEventListener("mouseover", () => {
+	mouseCursor.classList.add("link-effect");
+});
 
 
 
+
+//form
+formName.addEventListener("mouseleave", () => {
+	mouseCursor.classList.remove("link-effect");
+});
+formName.addEventListener("mouseover", () => {
+	mouseCursor.classList.add("link-effect");
+});
+
+
+formEmail.addEventListener("mouseleave", () => {
+	mouseCursor.classList.remove("link-effect");
+});
+formEmail.addEventListener("mouseover", () => {
+	mouseCursor.classList.add("link-effect");
+});
+
+
+formSubject.addEventListener("mouseleave", () => {
+	mouseCursor.classList.remove("link-effect");
+});
+formSubject.addEventListener("mouseover", () => {
+	mouseCursor.classList.add("link-effect");
+});
+
+
+formMessage.addEventListener("mouseleave", () => {
+	mouseCursor.classList.remove("link-effect");
+});
+formMessage.addEventListener("mouseover", () => {
+	mouseCursor.classList.add("link-effect");
+});
+
+formButton.addEventListener("mouseleave", () => {
+	mouseCursor.classList.remove("link-effect");
+});
+formButton.addEventListener("mouseover", () => {
+	mouseCursor.classList.add("link-effect");
+});
 
 
 
 
 // goToTop
-goToTop.addEventListener("mouseleave",() => {
-		mouseCursor.classList.remove("link-effect");
-	});
-goToTop.addEventListener("mouseover",() => {
-		mouseCursor.classList.add("link-effect");
-	});
-
-
-
-
-
-
-
+goToTop.addEventListener("mouseleave", () => {
+	mouseCursor.classList.remove("link-effect");
+});
+goToTop.addEventListener("mouseover", () => {
+	mouseCursor.classList.add("link-effect");
+});
