@@ -392,43 +392,6 @@ nav h1 {
 
 
 
-/* Work Experience */
-.work-section-div h1 {
-	font-weight: 300;
-	margin-right: 100px;
-	float: right;
-}
-
-.work-section-div div {
-	clear: both;
-	width: 90%;
-	padding: 40px 100px;
-	margin: 0 auto;
-}
-
-.work-section-div h3 {
-	font-weight: bold;
-	position: relative;
-	display: inline;
-	background-color: rgba(20, 255, 226, 0.33);
-}
-
-.work-section-div h3::before {
-	content: "-";
-	width: 0;
-	position: absolute;
-	left: -20px;
-}
-
-.work-section-div p:first-of-type {
-	font-weight: 300;
-}
-
-.work-section-div a {
-	color: black;
-}
-
-
 /* SKILL SECTION */
 .skill-section-div {
 	position: relative;
@@ -467,6 +430,45 @@ nav h1 {
 	letter-spacing: .2rem;
 	list-style: none;
 	margin-top: 10px;
+}
+
+
+
+
+/* Work Experience */
+.work-section-div h1 {
+	font-weight: 300;
+	margin-right: 100px;
+	float: right;
+}
+
+.work-section-div div {
+	clear: both;
+	width: 90%;
+	padding: 40px 100px;
+	margin: 0 auto;
+}
+
+.work-section-div h3 {
+	font-weight: bold;
+	position: relative;
+	display: inline;
+	background-color: rgba(20, 255, 226, 0.33);
+}
+
+.work-section-div h3::before {
+	content: "-";
+	width: 0;
+	position: absolute;
+	left: -20px;
+}
+
+.work-section-div p:first-of-type {
+	font-weight: 300;
+}
+
+.work-section-div a {
+	color: black;
 }
 
 
