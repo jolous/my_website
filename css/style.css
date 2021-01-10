@@ -310,9 +310,11 @@ nav h1 {
 }
 
 #contact {
-	border: 2px solid #000;
+	border: 3px solid #000;
+	background-color: #000;
+	color: white;
 	padding: 10px;
-	font-weight: bold;
+	font-weight: 800;
 }
 
 .cursor {
@@ -327,12 +329,12 @@ nav h1 {
 	transition: all 0.3s ease;
 	transition-property: background, transform;
 	transform-origin: 100% 100%;
-	z-index: -1;
+	z-index: 99;
 }
 
 .link-effect {
 	transform: scale(2.6);
-	background: #14ffe2;
+	background: rgba(20, 255, 226, 0.28);
 	border: none;
 }
 
@@ -539,7 +541,7 @@ nav h1 {
 	content: '';
 	flex: 1;
 	background: linear-gradient(to right, transparent, #d3d3f4, transparent);
-	border-bottom: 1px solid rgba(0, 42, 69, 0.19);
+	border-bottom: 1px solid rgba(0, 15, 25, 0.28);
 }
 
 .separator::before {
