@@ -164,7 +164,7 @@ ins {
 
 body {
 	background: #F2F2F2;
-	background: #fff;
+	background: #ffffff;
 	overflow-x: hidden;
 	overflow-y: auto;
 }
@@ -185,6 +185,7 @@ body {
 /* Track */
 ::-webkit-scrollbar-track {
 	-webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+	
 }
 
 /* Handle */
@@ -556,6 +557,16 @@ nav h1 {
 
 
 
+.phone{
+	background-color: rgba(62, 240, 255, 0);
+	
+	border-color: rgba(62, 240, 255, 0);
+	color: #000000;
+}
+.phone svg{ 
+	margin: 0 0px -5px 0px;
+	transform:rotate(15deg);
+}
 
 
 
