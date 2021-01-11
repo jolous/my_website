@@ -305,7 +305,7 @@ nav h1 {
 }
 
 .nav-links li a {
-	font-weight: 400;
+	font-weight: 600;
 	text-decoration: none;
 	color: black;
 }
@@ -315,7 +315,6 @@ nav h1 {
 	background-color: #000;
 	color: white;
 	padding: 10px;
-	font-weight: 800;
 }
 
 .cursor {
@@ -557,16 +556,23 @@ nav h1 {
 
 
 
+#contact svg{
+	margin: 0 7px -3px 0px;
+}
+
 .phone{
 	background-color: rgba(62, 240, 255, 0);
-	
-	border-color: rgba(62, 240, 255, 0);
+	padding: 10px;
+	border-color: rgba(62, 240, 255, 1);
+	border-bottom: 3px solid black;
 	color: #000000;
 }
+
 .phone svg{ 
-	margin: 0 0px -5px 0px;
-	transform:rotate(15deg);
+	margin: 0 7px -4px 0px;
+	transform:rotate(12deg);
 }
+
 
 
 
