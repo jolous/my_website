@@ -49,7 +49,7 @@
 
 	// ********************* General
 
-	document.getElementById("skillGeneral").addEventListener("click", function () {
+	$('#skillGeneral').click(function(){
 		this.style.fontWeight = "bold";
 		document.getElementById("skillProgramming").style.fontWeight = "400";
 		document.getElementById("skillData").style.fontWeight = "400";
@@ -101,7 +101,7 @@
 
 
 	//*************************** Programming
-	document.getElementById("skillProgramming").addEventListener("click", function () {
+$('#skillProgramming').click(function(){
 		this.style.fontWeight = "bold";
 		document.getElementById("skillGeneral").style.fontWeight = "400";
 		document.getElementById("skillData").style.fontWeight = "400";
@@ -152,7 +152,7 @@
 
 	//*************************** Data Science
 
-	document.getElementById("skillData").addEventListener("click", function () {
+$('#skillData').click(function(){
 		this.style.fontWeight = "bold";
 		document.getElementById("skillGeneral").style.fontWeight = "400";
 		document.getElementById("skillProgramming").style.fontWeight = "400";
@@ -203,7 +203,7 @@
 
 	//*************************** Web Development
 
-	document.getElementById("skillWeb").addEventListener("click", function () {
+$('#skillWeb').click(function(){
 		this.style.fontWeight = "bold";
 		document.getElementById("skillGeneral").style.fontWeight = "400";
 		document.getElementById("skillProgramming").style.fontWeight = "400";
@@ -254,7 +254,7 @@
 
 	//*************************** Other
 
-	document.getElementById("skillOther").addEventListener("click", function () {
+$('#skillOther').click(function(){
 		this.style.fontWeight = "bold";
 		document.getElementById("skillGeneral").style.fontWeight = "400";
 		document.getElementById("skillProgramming").style.fontWeight = "400";
