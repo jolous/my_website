@@ -55,7 +55,14 @@
 }
 
 
+/* Change the selected text */
+::-moz-selection { /* Code for Firefox */
+  background: #84f6ff;
+}
 
+::selection {
+  background: #84f6ff;
+}
 
 /* Page Loader */
 .js .loading::before {
@@ -412,7 +419,7 @@ nav h1 {
 	font-weight: bold;
 	position: relative;
 	display: inline;
-	background-color: rgba(20, 255, 226, 0.33);
+	background-color: rgba(20, 255, 226, 0.13);
 }
 
 .education-section-div h3::before {
@@ -489,7 +496,7 @@ nav h1 {
 	font-weight: bold;
 	position: relative;
 	display: inline;
-	background-color: rgba(20, 255, 226, 0.33);
+	background-color: rgba(20, 255, 226, 0.13);
 }
 
 .work-section-div h3::before {
