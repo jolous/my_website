@@ -1,0 +1,450 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<!--[if IE]><meta http-equiv="X-UA-Compatible" content="IE=edge"><![endif]-->
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+	<meta name="title" content="Ehsan Jolous Jamshidi | Portfolio Website">
+	<meta name="keywords" content="Ehsan Jolous Jamshidi, Resume, Portfolio">
+	<meta name="description" content="Here you can see find my resume">
+	<link rel="icon" href="images/favicon/favicon-96x96.png">
+
+
+	<!-- Open Graph / Facebook -->
+	<meta property="og:type" content="website">
+	<meta property="og:url" content="http://website.com/">
+	<meta property="og:title" content="Ehsan Jolous Jamshidi | Portfolio Website">
+	<meta property="og:description" content="-">
+	<meta property="og:image" content="images/favicon/envtechlogo_square.png">
+
+	<!-- Twitter -->
+	<meta property="twitter:card" content="summary">
+	<meta property="twitter:url" content="http://website.com/">
+	<meta property="twitter:title" content="Name | Login Page">
+	<meta property="twitter:description" content="-">
+	<meta property="twitter:image" content="images/favicon/envtechlogo_square.png">
+
+	<!-- FAVICONS -->
+	<link rel="shortcut icon" href="images/favicon/envtechlogo_square.png">
+	<link rel="apple-touch-icon" href="images/favicon/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="images/favicon/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="images/favicon/apple-icon-114x114.png">
+
+	<!-- CSS -->
+
+	<link rel="stylesheet" href="css/style.css">
+
+
+
+	<!-- jQuery and JS bundle w/ Popper.js -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.min.js"></script>
+
+	<!-- Smooth Scroll -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script>
+		$(document).ready(function() {
+			// Add smooth scrolling to all links
+			$("a").on('click', function(event) {
+
+				// Make sure this.hash has a value before overriding default behavior
+				if (this.hash !== "") {
+					// Prevent default anchor click behavior
+					event.preventDefault();
+
+					// Store hash
+					var hash = this.hash;
+
+					// Using jQuery's animate() method to add smooth page scroll
+					// The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+					$('html, body').animate({
+						scrollTop: $(hash).offset().top
+					}, 800, function() {
+
+						// Add hash (#) to URL when done scrolling (default click behavior)
+						window.location.hash = hash;
+					});
+				} // End if
+			});
+		});
+	</script>
+<script>
+    
+var xhr = new XMLHttpRequest();
+xhr.withCredentials = true;
+
+xhr.addEventListener("readystatechange", function() {
+  if(this.readyState === 4) {
+    console.log(this.responseText);
+  }
+});
+
+xhr.open("GET", "https://oyw5vun7zb.execute-api.us-west-2.amazonaws.com/v1/data?start=2021-01-01%2001:00&end=2021-01-01%2001:30");
+xhr.setRequestHeader("Authorization", "eyJraWQiOiJmdDlMeHJhRVwvODJVYUxrbitYYStHU0RBZ1Z5bWNzOXVPSzBnK3ozWUZRTT0iLCJhbGciOiJSUzI1NiJ9.eyJzdWIiOiJkNTdlNzFmZC1iNDllLTQ2ZmUtOTY3My1lM2UyZTU4NTJlYTciLCJ0b2tlbl91c2UiOiJhY2Nlc3MiLCJzY29wZSI6ImF3cy5jb2duaXRvLnNpZ25pbi51c2VyLmFkbWluIHBob25lIG9wZW5pZCBwcm9maWxlIGVtYWlsIiwiYXV0aF90aW1lIjoxNjUwMTE3OTAwLCJpc3MiOiJodHRwczpcL1wvY29nbml0by1pZHAudXMtd2VzdC0yLmFtYXpvbmF3cy5jb21cL3VzLXdlc3QtMl9OejdBTVpyMjgiLCJleHAiOjE2NTAxMjE1MDAsImlhdCI6MTY1MDExNzkwMCwidmVyc2lvbiI6MiwianRpIjoiOWU4NGJiZmItYTI0Mi00MDJmLWE0OTEtZTMxZWY2YTg0OTBlIiwiY2xpZW50X2lkIjoiN2FibGl1Z3F0MzY1cWNocGNmZ2FrMnYybW4iLCJ1c2VybmFtZSI6ImVoc2FuamoifQ.QxZ_FcYDvkQLP3FIXjcHkTQqBFxTUh_vjRXZTAASyr6NoX7etac3tGn5UgeHRPeYYE_vBFnQ7Zcepz56PvMPqvO1J2N_gGRZoksdkSXww-bDkQ_WdEdCx2TaLIlK302mkgieM4LzoRY4ppYVrU5y1zyYyjtRvK7jIp3HC9X9GcInAqteaQ3cJFmC-uYOKOp_3oV5D52hIH33h3PFguY6VqQ-Cdgq2n-BtxdFbeH_XUtr4IfXLkL6rpI7o7e-LIHs2oEzFGJZIRrdvnkWC99B5UlFJXqzXa1jo6YrhStuI7ddyTzgOop-kbUEBSVde4QmX9E6jpijyRkwv-tPZV3YQQ");
+
+xhr.send();
+
+    </script>
+
+
+	<title>My Portfolio</title>
+</head>
+
+<body>
+	<div id="notReady"><h1>Mobile version is not ready yet :&#40;</h1></div>
+	<div id="goToTop"><a href="#home">&#x2191;</a></div>
+	<div class="progress"></div>
+	<div class="cursor"></div>
+
+	<!-- Nav bar -->
+
+	<nav id="home">
+		<h1>Ehsan Jolous Jamshidi</h1>
+		<ul class="nav-links">
+			<li><a href="#">HOME</a></li>
+			<li><a href="#educationSection">EDUCATION</a></li>
+			<li><a href="#skillSection">SKILLS</a></li>
+			<li><a href="#workSection">WORK EXPERIENCE</a></li>
+			<li><a href="#activitiesSection">ACTIVITIES</a></li>
+			<li><a href="#certificatesSection">CERTIFICATES</a></li>
+			<li>
+				<a href="mailto:&#101;&#106;&#046;&#106;&#097;&#109;&#115;&#104;&#105;&#100;&#105;&#064;&#103;&#109;&#097;&#105;&#108;&#046;&#099;&#111;&#109;" id="contact"> <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-envelope-fill" viewBox="0 0 16 16">
+						<path d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414.05 3.555zM0 4.697v7.104l5.803-3.558L0 4.697zM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586l-1.239-.757zm3.436-.586L16 11.801V4.697l-5.803 3.546z" />
+					</svg>SEND EMAIL</a>
+			</li>
+			<li>
+				<a href="tel:60109068744" class="phone"> <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-telephone-fill" viewBox="0 0 16 16">
+						<path fill-rule="evenodd" d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z" />
+					</svg>CALL ME</a>
+			</li>
+		</ul>
+	</nav>
+
+	
+	<!-- Home -->
+
+	<section class="home-section">
+		<div class="home-linkdin">
+			<a href="https://www.linkedin.com/in/ehsan-jolous-jamshidi-19a2b6146/" target="_blank" class="link"><img src="images/linkdin.png" /></a>
+		</div>
+		<div class="home-img">
+			<img src="images/Ehsan.jpg">
+		</div>
+		<div class="home-desc">
+			<h1>Hello,<br />My name is Ehsan.<br />I am a <ins><u><span class="text"></span></u></ins>.</h1>
+			<p>Enthusiastic and experienced data scientist with proven expertise in front-end development, data analytics, Python, SQL/No-SQL databases.</p>
+		</div>
+
+
+	</section>
+
+	<!-- Education -->
+	<div class="titles" id="educationSection">
+		<h1 class="separator" style="font-weight: 400">EDUCATION</h1>
+	</div>
+	<div class="education-section-div">
+		<section class="education-section">
+			<div>
+				<h3>Doctor of Philosophy (Environmental Technology)</h3>
+				<p>Universiti Sains Malaysia, Penang, Malaysia
+					<br />2021 - Present
+				</p>
+			</div>
+
+			<div>
+				<h3>Master of Data Science & Analytics</h3>
+				<p>Universiti Sains Malaysia, Penang, Malaysia
+					<br />2018 - 2020
+				</p>
+			</div>
+
+			<div>
+				<h3>Bachelor of Computer Engineering Technology-Hardware</h3>
+				<p>Khayyam University, Mashhad, Iran
+					<br />2008 - 2011
+				</p>
+			</div>
+
+		</section>
+	</div>
+
+	<!-- Skill -->
+
+	<div class="titles" id="skillSection">
+		<h1 class="separator" style="font-weight: 400">SKILLS</h1>
+	</div>
+	<div class="skill-section-div">
+
+		<section class="skill-section">
+			<div class="skill-chart" style="z-index: -999">
+				<canvas id="marksChart"></canvas>
+			</div>
+
+			<ul class="skill-links">
+				<li class="active" id="skillGeneral">GENERAL</li>
+				<li id="skillProgramming">PROGRAMMING</li>
+				<li id="skillData">DATA SCIENCE</li>
+				<li id="skillWeb">WEB DEVELOPMENT</li>
+				<li id="skillOther">OTHER</li>
+			</ul>
+
+
+		</section>
+	</div>
+
+
+
+
+
+	<!-- Work Experience -->
+	<div class="titles" id="workSection">
+		<h1 class="separator" style="font-weight: 400">WORK EXPERIENCE</h1>
+	</div>
+
+	<div class="work-section-div">
+		<section class="work-section">
+			<div>
+				<h3>Data Scientist (Internship)</h3>
+				<p>Universiti Sains Malaysia, Penang, Malaysia
+					<br />Jan. 2020 - Present
+				</p>
+				<br />
+				<p>Project title: Efficient Outlier Detection of the Coastal Water Temperature.</p>
+				<ul>
+					<li>Worked with NASA API using Python to retrieve satellite images.</li>
+					<li>Created a MongoDB database using Python to store more than 1700 CSV files.</li>
+					<li>Implemented a REST API app using Flask framework.</li>
+					<li>Visualized the parameters measured for the atmosphere-coastal ocean using Plotly.</li>
+					<li>Developed the website for the project.</li>
+					<li>Worked on Apache and Linux Server.</li>
+					<li><a href="https://atmosfera.usm.my" target="_blank" id="atmosfera">Atmosfera Website</a></li>
+				</ul>
+			</div>
+
+
+			<div>
+				<h3>Hardware Engineer</h3>
+				<p>Cyan System, Mashhad, Iran
+					<br />Sept. 2015 - Aug. 2017
+				</p>
+				<br />
+				<p>Co-founded a start-up project which developed a wireless building management system.</p>
+				<ul>
+					<li>Designed a mobile application using PhoneGap.</li>
+					<li>Designed a dashboard using HTML, CSS, and JS for users to track their activities.</li>
+					<li>Worked with AVR Microcontroller and various sensors.</li>
+				</ul>
+			</div>
+
+			<div>
+				<h3>Information Technology Help Desk</h3>
+				<p>Rhine Engineering Pvt. Ltd., Tehran, Iran
+					<br />Aug. 2012 - Sept. 2015
+				</p>
+				<br />
+				<ul>
+					<li>Responsible for designing and maintaining the company's website.</li>
+					<li> Monitoring and supporting the maintenance of computer systems and network.</li>
+					<li>Installing and testing new software, hardware, and printers and training staff.</li>
+				</ul>
+			</div>
+
+			<div>
+				<h3>Robotic Tutor</h3>
+				<p>Khayyam University, Mashhad, Iran
+					<br />Apr. 2011 - Jan. 2012
+				</p>
+				<br />
+				<p>Co-founded a start-up project which developed a wireless building management system.</p>
+				<ul>
+					<li>Tutored over 8 students the basics of robotic engineering.</li>
+					<li>Mentored the students for preparation for robotic competition.</li>
+				</ul>
+			</div>
+
+		</section>
+	</div>
+
+
+
+
+
+
+
+	<!-- Volunteer -->
+
+	<div class="titles">
+		<h1 class="separator" style="font-weight: 400">VOLUNTEER</h1>
+	</div>
+
+	<div class="work-section-div">
+		<section class="work-section">
+			<div>
+				<h3>Hardware and Software Specialist</h3>
+				<p>Penang Science Cluster, Penang, Malaysia
+					<br />Mar. 2019 - Jan. 2020
+				</p>
+				<br />
+				<ul>
+					<li>Created an Android application for the volunteers to register in events using QR code.</li>
+					<li>Store and retrieve volunteers' information into google a sheet using Google Apps Script.</li>
+					<li>Implemented voting software using the Electron framework as a front-end and Python.</li>
+					<li>Worked with fingerprint sensor.</li>
+					<li>Guid students in different competitions held by PSC.</li>
+				</ul>
+			</div>
+
+		</section>
+	</div>
+
+
+
+	<!-- Freelance -->
+	<div class="titles">
+		<h1 class="separator" style="font-weight: 400">FREELANCE</h1>
+	</div>
+	<div class="work-section-div">
+		<section class="work-section">
+			<div>
+				<ul>
+					<li><a href="http://mddtextile.com/" target="_blank" id="mdd"> Mddtextile Website </a></li>
+					<li><a href="http://iopixi.com/" target="_blank" id="iopixi"> Iopixi Website </a></li>
+					<li><a href="http://www.markitso.com/" target="_blank" id="markitso"> Markitso Website </a></li>
+					<li>Graphic design projects.</li>
+					<li>Robotic and programming projects.</li>
+				</ul>
+			</div>
+
+		</section>
+	</div>
+
+
+
+
+
+	<!-- Activities -->
+	<div class="titles" id="activitiesSection">
+		<h1 class="separator" style="font-weight: 400">ACTIVITIES</h1>
+	</div>
+	<div class="education-section-div">
+		<section class="education-section">
+			<div>
+				<h3>Technical Referee, Robotic Competitions, Azad University</h3>
+				<p>Ghoochan, Iran
+					<br />2012
+				</p>
+			</div>
+
+			<div>
+				<h3>Team Member, Khayam University’s Robotic Team</h3>
+				<p>Mashhad, Iran
+					<br />2010 - 2011
+				</p>
+			</div>
+
+			<div>
+				<h3>5th place at Robotic Competitions (Line Follower Robot), Amir Kabir University</h3>
+				<p>Tehran, Iran
+					<br />2010
+				</p>
+			</div>
+
+			<div>
+				<h3>1st place at Provincial Robotic Competitions, ARC Cup</h3>
+				<p>Mashhad, Iran
+					<br />2009
+				</p>
+			</div>
+
+			<div>
+				<h3>3rd place at National Robotic Competitions, Azad University </h3>
+				<p>Birjand, Iran
+					<br />2008
+				</p>
+			</div>
+
+		</section>
+	</div>
+
+
+
+	<!-- Certificates -->
+	<div class="titles" id="certificatesSection">
+		<h1 class="separator" style="font-weight: 400">CERTIFICATES</h1>
+	</div>
+	<div class="work-section-div">
+		<section class="work-section">
+			<div>
+				<ul>
+					<li><a href="https://www.coursera.org/account/accomplishments/verify/YQY7U8H62873?utm_campaign=sharing_cta&utm_content=cert_image&utm_medium=certificate&utm_product=course&utm_source=link" target="_blank" id="cloud"> Cloud Computing Basics (Cloud 101) | Coursera (2020) </a></li>
+					<li> Statistical Hypothesis Testing & Data Analysis | Universiti Sains Malaysia (2019) </li>
+					<li>MCITP | Pasargad Informatic Institute (2013)</li>
+					<li>CompTIA Network + | Pasargad Informatic Institute (2013)</li>
+				</ul>
+			</div>
+
+		</section>
+	</div>
+
+
+
+
+
+	<!-- Copyright -->
+
+
+	<div class="Copyright-section-div">
+		<section class="Copyright-section">
+			<p>Copyright © 2020 Ehsan Jolous Jamshidi. All Rights Reserved</p>
+		</section>
+	</div>
+
+
+
+
+
+
+
+	<script src="js/app.js"></script>
+
+
+	<!-- Progress bar -->
+	<script>
+		window.addEventListener('scroll', () => {
+			document.body.style.setProperty('--scroll', window.pageYOffset / (document.body.offsetHeight - window.innerHeight));
+		}, false);
+	</script>
+
+
+	<!-- Chart -->
+	<script src="js/skill.js"></script>
+
+
+
+	<!-- Text effect -->
+	<script src="js/scramble.js"></script>
+	<script>
+		const phrases = ['Data Scientist', 'Web Developer', 'Programmer', 'Photographer'];
+		const el = document.querySelector('.text');
+		const fx = new TextScramble(el);
+		let counter = 0;
+
+		const next = () => {
+			fx.setText(phrases[counter]).then(() => {
+				setTimeout(next, 3000);
+			});
+			counter = (counter + 1) % phrases.length;
+		};
+
+		next();
+	</script>
+
+
+
+
+
+
+</body>
+
+</html>
