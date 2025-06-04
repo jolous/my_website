@@ -5,8 +5,8 @@ const hoverTargets = [
   pageLink,
   document.querySelector('#atmosfera'),
   document.querySelector('#mdd'),
-  document.querySelector('#iopixi'),
-  document.querySelector('#markitso'),
+  document.querySelector('#oilpalm1'),
+  document.querySelector('#oilpalm2'),
   document.querySelector('#cloud'),
   document.querySelector('#goToTop')
 ];
