@@ -11,16 +11,12 @@
 	--negative: #ffffff;
 	--lightGradient: linear-gradient(180deg, #132860 0%, #377ede 100%);
 	--darkGradient: linear-gradient(180deg, #095eb3 0%, #2464f4 100%);
-	--shadow: #062d3f;
 	--dark: #2C170B;
 	--highlight: #7188b2;
 	--lightColor: #e3fffa;
 	--accent: #023af3;
 	--accentHover: #90c7fe;
 
-	/* Box Shadow */
-	--shadow: 0 5px 15px 7px rgba(0, 0, 0, 0.06);
-	--shadowHover: 0 0 20px 10px rgba(0, 0, 0, 0.15);
 
 	/* Margin and Padding */
 	--spaceXXL: 48px;
@@ -170,7 +166,6 @@ ins {
 }
 
 body {
-	background: #F2F2F2;
 	background: #ffffff;
 	overflow-x: hidden;
 	overflow-y: auto;
