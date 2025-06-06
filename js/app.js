@@ -6,7 +6,6 @@ const hoverTargets = [
   document.querySelector('#atmosfera'),
   document.querySelector('#mdd'),
   document.querySelector('#oilpalm1'),
-  document.querySelector('#oilpalm2'),
   document.querySelector('#cloud'),
   document.querySelector('#goToTop')
 ];
