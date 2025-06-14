@@ -50,6 +50,9 @@
 	--light: 300;
 }
 
+html {
+        scroll-behavior: smooth;
+}
 
 /* Change the selected text */
 ::-moz-selection { /* Code for Firefox */
