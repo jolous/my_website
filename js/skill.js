@@ -5,17 +5,29 @@ document.getElementById('skillProgramming').style.fontWeight = '400';
 document.getElementById('skillData').style.fontWeight = '400';
 document.getElementById('skillWeb').style.fontWeight = '400';
 document.getElementById('skillOther').style.fontWeight = '400';
+// , 'Microsoft Word', 'Microsoft Excel', 'Microsoft PowePoint'
 
 const skills = {
   skillGeneral: {
-    label: 'GENERAL',
-    labels: ['Teamwork', 'Communication', 'Microsoft Word', 'Microsoft Excel', 'Microsoft PowePoint'],
-    data: [90, 80, 85, 50, 95]
+    label: 'SOFT SKILLS',
+    labels: ['Teamwork', 'Communication', 'Mentoring', 'Problem-Solving', 'Adaptability', 'Customer-Centric Mindset', 'Presentation & Storytelling'],
+    data: [95, 90, 80, 80, 100, 90, 90]
   },
   skillProgramming: {
-    label: 'PROGRAMMING',
-    labels: ['C++', 'C', 'Java'],
-    data: [40, 50, 50]
+    label: 'DATA SCIENCE & ANALYTICS',
+    labels: [
+      ['Programming', '(Python, R)'],
+      ['AI',          '(ML, DL)'],
+      ['NLP', 'spaCy, NLTK'],
+      'Statistical Analysis',
+      'Data Engineering',
+      ['Database', '(DynamoDB, MongoDB, SQLite, PostgreSQL)'],
+      ['Vector Database', '(ChromaDB, Pinecone)'],
+      ['Visualization', '(Plotly, matplotlib, seaborn, Tableau)'],
+      ['MLOps & Deployment', '(Docker, AWS SageMaker)'],
+      ['Tools & Environments', '(Jupyter Notebooks, VS Code)']
+    ],
+    data: [85,80,70,50,70,80,80,90,65,80]
   },
   skillData: {
     label: 'Data Science',
@@ -24,8 +36,8 @@ const skills = {
   },
   skillWeb: {
     label: 'Web Development',
-    labels: ['HTML', 'CSS', 'JavaScript', 'Bootstrap', 'JQuery', 'Ajax', 'Wordpress', 'cPanel', 'Apache Server'],
-    data: [90, 70, 60, 70, 70, 50, 50, 70, 60]
+    labels: ['HTML', 'CSS', 'JavaScript', 'Bootstrap', 'cPanel', 'Apache Server'],
+    data: [100, 70, 60, 85, 70, 65]
   },
   skillOther: {
     label: 'Other',

@@ -265,7 +265,7 @@ body {
 	transition: all 0.3s ease;
 	transition-property: background, transform;
 	transform-origin: 100% 100%;
-	z-index: 99;
+	z-index: 1001;
 }
 
 .link-effect {
@@ -281,13 +281,20 @@ body {
 
 /* Nav bar*/
 nav {
+
+  position: sticky;
+  top: 0;
+  background-color: #fff;   
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  z-index: 1000;
 	display: flex;
 	justify-content: space-between;
-	width: 90%;
+	width: auto;
 	min-height: 10vh;
 	align-items: center;
-	margin: auto;
+	
 }
+
 
 .nav-links {
 	display: flex;
@@ -305,7 +312,8 @@ nav h1 {
 
 nav h1 {
 	font-family: 'Dancing Script', cursive;
-	font-size: 1.2rem;
+	font-size: 1rem;
+	margin: 40px;
 }
 
 .nav-links li {
@@ -893,7 +901,3 @@ nav h1 {
 
 
 
-
-
-
-s
