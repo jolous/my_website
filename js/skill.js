@@ -30,20 +30,33 @@ const skills = {
     data: [85,80,70,50,70,80,80,90,65,80]
   },
   skillData: {
-    label: 'Data Science',
-    labels: ['Python', 'R', 'Rapid Miner', 'Tableau', 'SQL', 'MongoDB', 'Microsoft Access'],
-    data: [80, 40, 50, 70, 30, 80, 60]
+    label: 'AWS CLOUD SERVICES',
+    labels: [
+      ['Compute & Serverless',     '(AWS Cloud9, Lambda, API Gateway)'],
+      ['Storage & Messaging',      '(S3, SNS, EventBridge)'],
+      ['Security & Monitoring',    '(Cognito, CloudWatch)'],
+      ['Computer Vision & Document AI', '(Amazon Rekognition, Textract)']
+    ],
+    // proficiency ratings out of 100
+    data: [85, 90, 70, 60]
   },
   skillWeb: {
     label: 'Web Development',
-    labels: ['HTML', 'CSS', 'JavaScript', 'Bootstrap', 'cPanel', 'Apache Server'],
-    data: [100, 70, 60, 85, 70, 65]
+    labels: ['HTML', 'CSS', 'JavaScript', 'Bootstrap', 'cPanel', 'Apache Server', 'RESTful API'],
+    data: [100, 70, 60, 85, 70, 65, 70]
   },
   skillOther: {
-    label: 'Other',
-    labels: ['Server Adiministration', 'Network +', 'Linux Server', 'Photoshop', 'Illustrator', 'Corel Draw', 'Microcontrollers Programming', 'Photography'],
-    data: [40, 70, 40, 50, 40, 40, 60, 50]
-  }
+  label: 'OTHER TECHNICAL SKILLS',
+  labels: [
+    ['Programming',       '(C++, C#, Java)'],
+    ['Systems & DevOps',  '(Linux server administration, Network+)'],
+    ['Design',            '(Photoshop, Illustrator, Corel Draw)'],
+    ['Embedded & IoT',    '(AVR & Arduino microcontroller programming)'],
+    ['Hobbies',           '(Photography, Personal App Development, Gaming)']
+  ],
+  // proficiency ratings out of 100
+  data: [40, 60, 60, 70, 70]
+}
 };
 
 const chartOptions = {
