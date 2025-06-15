@@ -448,7 +448,7 @@ nav h1 {
 	font-weight: bold;
 	position: relative;
 	display: inline;
-	background-color: rgba(20, 255, 226, 0.13);
+	background-color: rgba(247, 115, 141, 0.33);
 }
 
 .education-section-div h3::before {
@@ -482,7 +482,7 @@ nav h1 {
 	font-weight: bold;
 	position: relative;
 	display: inline;
-	background-color: rgba(20, 255, 226, 0.13);
+	background-color: rgba(247, 115, 141, 0.33);
 }
 
 .publications-section-div h3::before {
@@ -945,7 +945,7 @@ nav h1 {
 		font-weight: bold;
 		position: relative;
 		display: inline;
-		background-color: rgba(20, 255, 226, 0.33);
+		background-color: rgba(247, 115, 141, 0.33);
 	}
 
 	.education-section-div h3::before {

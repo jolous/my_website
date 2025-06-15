@@ -9,7 +9,9 @@ const hoverTargets = [
   document.querySelector('#nihonary'),
   document.querySelector('#papers'),
   document.querySelector('#cloud'),
-  document.querySelector('#goToTop')
+  document.querySelector('#goToTop'),
+  document.querySelector('#vizOverview'),
+  document.querySelector('#sunburstDemo')
 ];
 const navSkill = document.querySelectorAll('.skill-links li');
 

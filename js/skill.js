@@ -18,7 +18,7 @@ const skills = {
     labels: [
       ['Programming', '(Python, R)'],
       ['AI',          '(ML, DL)'],
-      ['NLP', 'spaCy, NLTK'],
+      ['NLP', '(spaCy, NLTK)'],
       'Statistical Analysis',
       'Data Engineering',
       ['Database', '(DynamoDB, MongoDB, SQLite, PostgreSQL)'],
@@ -43,7 +43,7 @@ const skills = {
   skillWeb: {
     label: 'Web Development',
     labels: ['HTML', 'CSS', 'JavaScript', 'Bootstrap', 'cPanel', 'Apache Server', 'RESTful API'],
-    data: [100, 70, 60, 85, 70, 65, 70]
+    data: [95, 70, 60, 85, 70, 65, 70]
   },
   skillOther: {
   label: 'OTHER TECHNICAL SKILLS',
