@@ -9,6 +9,8 @@ const hoverTargets = [
   document.querySelector('#nihonary'),
   document.querySelector('#papers'),
   document.querySelector('#cloud'),
+  document.querySelector('#AWS1'),
+  document.querySelector('#AWS2'),
   document.querySelector('#goToTop'),
   document.querySelector('#vizOverview'),
   document.querySelector('#sunburstDemo')
