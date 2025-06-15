@@ -50,6 +50,85 @@
 	--light: 300;
 }
 
+
+/* ################# Button Animation ###################### */
+
+#animated-link a {
+  position: relative;
+  display: inline-block;
+  padding: 10px 20px;
+  color: #000000;
+  text-decoration: none;
+  font-family: 'Raleway', sans-serif;
+  letter-spacing: 2px;
+  overflow: hidden;
+}
+
+#animated-link a span {
+  position: absolute;
+  display: block;
+  background: #000000;
+}
+
+/* Top border */
+#animated-link a span:nth-child(1) {
+  height: 2px;
+  width: 100%;
+  top: 0;
+  left: -100%;
+  animation: moveTop 4s linear infinite;
+}
+
+/* Right border */
+#animated-link a span:nth-child(2) {
+  width: 2px;
+  height: 100%;
+  top: -100%;
+  right: 0;
+  animation: moveRight 4s linear infinite 1s;
+}
+
+/* Bottom border */
+#animated-link a span:nth-child(3) {
+  height: 2px;
+  width: 100%;
+  bottom: 0;
+  right: -100%;
+  animation: moveBottom 4s linear infinite 2s;
+}
+
+/* Left border */
+#animated-link a span:nth-child(4) {
+  width: 2px;
+  height: 100%;
+  bottom: -100%;
+  left: 0;
+  animation: moveLeft 4s linear infinite 3s;
+}
+
+/* Keyframes */
+@keyframes moveTop {
+  0% { left: -100%; }
+  50%, 100% { left: 100%; }
+}
+@keyframes moveRight {
+  0% { top: -100%; }
+  50%, 100% { top: 100%; }
+}
+@keyframes moveBottom {
+  0% { right: -100%; }
+  50%, 100% { right: 100%; }
+}
+@keyframes moveLeft {
+  0% { bottom: -100%; }
+  50%, 100% { bottom: 100%; }
+}
+
+
+/* ####################################### */
+
+
+
 html {
         scroll-behavior: smooth;
 }
@@ -498,6 +577,8 @@ nav h1 {
 
 .publications-section-div a {
 	color: black;
+	text-underline-position: under;
+	font-weight: 600;
 }
 
 
@@ -579,6 +660,8 @@ nav h1 {
 
 .work-section-div a {
 	color: black;
+	text-underline-position: under;
+	font-weight: 600;
 }
 
 

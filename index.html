@@ -190,35 +190,51 @@
 
 	<div class="work-section-div">
 		<section class="work-section">
+
+
 			<div>
-				<h3>Data Scientist (Internship)</h3>
-				<p>Universiti Sains Malaysia, Penang, Malaysia
-					<br />Jan. 2020 - Present
+				<h3>PhD Researcher / Project-Based Contributor</h3>
+				<p>
+					Universiti Sains Malaysia, Penang, Malaysia<br />
+					Jan. 2020 – Present
 				</p>
 				<br />
-				<p>Project title: Efficient Outlier Detection of the Coastal Water Temperature.</p>
+				<p><strong>Main PhD Research:</strong> Oil Palm Yield Prediction using Machine Learning and Deep Learning techniques.</p>
+				<p>Performed oil palm tree detection from drone images using YOLOv5 and Amazon Rekognition.</p>
+				<br>
+				<p><strong>Additional Project Contributions (under supervisor’s external collaborations):</strong></p>
 				<ul>
-					<li>Worked with NASA API using Python to retrieve satellite images.</li>
-					<li>Created a MongoDB database using Python to store more than 1700 CSV files.</li>
-					<li>Implemented a REST API app using Flask framework.</li>
-					<li>Visualized the parameters measured for the atmosphere-coastal ocean using Plotly.</li>
-					<li>Developed the website for the project.</li>
-					<li>Worked on Apache and Linux Server.</li>
-					<li><a href="https://atmosfera.usm.my" target="_blank" id="atmosfera">Atmosfera Website</a></li>
+					<li>Developed an automated AWS-based HPC cluster and web interface for WRF model setup (Petronas), including dynamic namelist generation and workflow automation.</li>
+					<li>Contributed to methane emissions research (Environmental Defense Fund) by developing visualizations and assisting with data interpretation.</li>
+					<li>Built a university chatbot for the School of Industrial Technology by scraping website content, extracting structured Markdown summaries using ChatGPT, storing them in Pinecone vector database, and deploying the chatbot using n8n. <a href="https://indtech.usm.my" target="_blank" id="indtech">View the chatbot here</a></li>
+					<li>Developed a meeting minutes management app that extracts key discussion sections and uses ChatGPT to label them by topic (e.g., students, curriculum), enabling search and filtering via ChromaDB.</li>
+					<li>Retrieved satellite images using the NASA API via Python to support coastal and agricultural research.</li>
+					<li>Connected a Raspberry Pi to the CEMACS weather station (Penang) data logger for real-time sensor data acquisition (e.g., water temperature, radiation, wind speed), converted data to GHG format, uploaded to AWS S3, transformed to CSV using EC2, stored in DynamoDB, and visualized selected parameters via a custom web dashboard and REST API. <a href="https://atmosfera.usm.my" target="_blank" id="atmosfera">Atmosfera Website</a> </li>
 				</ul>
 			</div>
 
 
+
 			<div>
 				<h3>IoT Systems Engineer</h3>
+				<a 
+					href="https://www.youtube.com/shorts/NAvs-EaTwQw" 
+					target="_blank" 
+					rel="noopener noreferrer"
+					id="bms"
+					>
+					product demo
+					</a>
 				<p>
 					Cyan System, Mashhad, Iran<br>
 					Sep 2015 – Aug 2017
 				</p>
 				<br />
 				<p>
-					Co-founded a start-up to develop a wireless building management system.
+					Co-founded a start-up to develop a wireless building management system
+					
 				</p>
+				
 				<ul>
 					<li>Designed and built a mobile app using PhoneGap.</li>
 					<li>Developed a user dashboard with HTML, CSS, and JavaScript to monitor system activity.</li>
@@ -324,50 +340,54 @@
             Daily-updated and interactive visualization of parameters measured for the atmosphere-coastal ocean experiment at the Centre for Marine and Coastal Studies (CEMACS) USM.
         </p>
 		<div style="display: block; text-align: center;">
-		<img src="images/demo/atmosfera.png" alt="CEMACS Interactive Visualization" style="max-width: 50%; height: auto;"/>
+			<img src="images/demo/atmosfera.png" alt="CEMACS Interactive Visualization" style="max-width: 60%; height: auto;"/>
 		</div>
-        <li>	
-          <a href="https://atmosfera.usm.my/visualization.html" target="_blank" id="vizOverview">
-            View Daily-Updated Interactive Visualizations
-          </a>
-        </li>
+		<div style="display: block; text-align: center;">
+			<span id="animated-link" >
+				<a href="https://atmosfera.usm.my/visualization.html" target="_blank" id="vizOverview">
+				View Daily-Updated Interactive Visualizations<span></span><span></span><span></span><span></span>
+				</a>
+			</span>
+		</div>
+		
+
+
 		<br/>
+		<br/>
+		
 		
 		<p>
             An interactive Plotly sunburst chart mapping IPCC methane emission factors across Malaysia built for Environmental Defense Fund (EDF).
         </p>
 		<div style="display: block; text-align: center;">
-		<img src="images/demo/sunburst.png" alt="CEMACS Interactive Visualization" style="max-width: 50%; height: auto;"/>
+			<img src="images/demo/sunburst.png" alt="CEMACS Interactive Visualization" style="max-width: 60%; height: auto;"/>
 		</div>
-        <li>
-          <a href="demo/sunburst_plot.html" target="_blank" id="sunburstDemo">
-           View Interactive Sunburst Chart
-          </a>
-          
-        </li>
+
+		<div style="display: block; text-align: center;">
+			<span id="animated-link" >
+				<a href="demo/sunburst_plot.html" target="_blank" id="sunburstDemo">
+				View Interactive Sunburst Chart<span></span><span></span><span></span><span></span>
+				</a>
+			</span>
+		</div>
+
+
+		<br/>
+		<br/>
 
 		<p>
-  			Real-time video processing demo that detects oil palm trees from aerial footage using OpenCV and deep learning.
+  			Oil palm tree detection showcase using YOLOv5 on recorded drone video.
 		</p>
-		<div style="text-align: center; margin: 1em 0;">
-		<video
+		<div style="text-align: center;">
+			<video
 			controls
-			style="max-width: 50%; height: auto; display: inline-block;"
 			poster="images/demo/oilpalm_detection.png"
-		>
-			<source src="demo/oilpalm_detection.mp4" type="video/mp4" />
-			Your browser does not support the video tag.
-		</video>
+			style="max-width:70%;height:auto;display:inline-block;"
+			>
+			<source src="images/demo/oilpalm_detection.mp4" type="video/mp4">
+			Your browser does not support HTML5 video.
+			</video>
 		</div>
-		<li>
-		<a
-			href="demo/oilpalm_detection.html"
-			target="_blank"
-			id="oilpalmDemo"
-		>
-			View Oil Palm Tree Detection Demo
-		</a>
-		</li>
 
 
       </ul>
@@ -423,7 +443,7 @@
 					rel="noopener noreferrer"
 					id="AWS1"
 				>
-				<strong>Architecting on AWS</strong> | Trainocate (2022)
+				<strong>Architecting on AWS</strong></a> | Trainocate (2022)
 			</li>
 			<li>
 			<a
@@ -431,7 +451,7 @@
 				target="_blank"
 				id="AWS2"
 			>
-				<strong>AWS Technical Essentials</strong> | Trainocate (2022)
+				<strong>AWS Technical Essentials</strong></a>| Trainocate (2022)
 			</li>
 			<li>
 			<a
@@ -439,7 +459,7 @@
 				target="_blank"
 				id="cloud"
 			>
-				<strong>Cloud Computing Basics (Cloud 101)</strong> | Coursera (2020)
+				<strong>Cloud Computing Basics (Cloud 101)</strong></a> | Coursera (2020)
 			</a>
 			</li>
 			<li><strong>Statistical Hypothesis Testing & Data Analysis</strong> | Universiti Sains Malaysia (2019)</li>

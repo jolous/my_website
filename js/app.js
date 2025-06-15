@@ -3,6 +3,8 @@ const navLinks = document.querySelectorAll('.nav-links li');
 const pageLink = document.querySelector('.link');
 const hoverTargets = [
   pageLink,
+  document.querySelector('#bms'),
+  document.querySelector('#indtech'),
   document.querySelector('#atmosfera'),
   document.querySelector('#mdd'),
   document.querySelector('#oilpalm'),
