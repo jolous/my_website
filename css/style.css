@@ -678,10 +678,6 @@ nav h1 {
 
 
 
-
-
-
-
 .titles {
 	width: 50%;
 	margin: 0 auto;
@@ -691,8 +687,10 @@ nav h1 {
 .separator {
 	display: flex;
 	align-items: center;
+	justify-content: center; 
 	text-align: center;
 }
+
 
 .separator::before,
 .separator::after {
@@ -719,6 +717,8 @@ nav h1 {
 
 
 @media only screen and (max-width: 1350px) {  /*768*/
+
+
   .home-section {
     flex-direction: column;
     text-align: center;
@@ -727,13 +727,20 @@ nav h1 {
   .home-desc h1{
 	margin-bottom: 10px;
   }
+
+  .home-img img {
+    width: 300px;
+    height: auto;
+  }
+
   .home-img {
-    margin: 0 auto;
+    margin-left: 0;
+    text-align: center;
   }
 
   .home-desc h1 {
-    font-size: 2rem;
-    margin: 0;
+	font-size: 2.4rem;
+    margin: 0 0 10px 0;
   }
 
   .home-desc p {
@@ -798,6 +805,20 @@ nav h1 {
   .skill-links li {
     justify-content: center;
   }
+
+  .education-section-div div {
+	clear: both;
+	width: 90%;
+	padding: 10px 30px;
+	margin: 0 auto;
+}
+
+.publications-section-div div {
+	clear: both;
+	width: 90%;
+	padding: 10px 30px;
+	margin: 0 auto;
+}
 
   .work-section-div div {
 	clear: both;
