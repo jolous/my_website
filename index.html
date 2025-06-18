@@ -512,6 +512,35 @@
 		next();
 	</script>
 
+	<script>
+		function buildData(id) {
+			const { label, labels, data } = skills[id];
+			const smallScreen = window.innerWidth < 1000;
+
+			const finalLabels = labels.map(label => {
+				if (Array.isArray(label)) {
+				return smallScreen ? label[0] : label; // ✅ key fix here
+				}
+				return label;
+			});
+
+			return {
+				labels: finalLabels,
+				datasets: [{
+				label,
+				backgroundColor: 'rgba(20, 255, 226, .5)',
+				borderColor: 'rgba(0, 0, 0, 1)',
+				borderWidth: 4,
+				radius: 4,
+				data
+				}]
+			};
+			}
+
+
+
+</script>
+
 
 
 
