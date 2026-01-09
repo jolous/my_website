@@ -1,54 +1,29 @@
 # Ehsan Jolous Jamshidi Portfolio
 
-This repository contains the source code for Ehsan Jolous Jamshidi's personal portfolio website. The site showcases Ehsan's background, skills, and projects through an interactive single-page layout built with React and TypeScript.
+This repository contains the source code for Ehsan Jolous Jamshidi's personal portfolio website. The site showcases Ehsan's background, skills and projects through an interactive single-page layout.
 
 ## Features
 - **Animated introduction** using a text scramble effect.
-- **Custom cursor** and navigation animations.
+- **Custom cursor** and navigation animations written in JavaScript.
 - **Radar charts** for skill levels powered by Chart.js.
-- **PHP contact form** for sending messages (served via `index.php` and `contact.php`).
+- **PHP contact form** for sending messages.
 
 ## Project Structure
-- `index.html` – Vite entry HTML.
-- `index.php` – PHP wrapper (optional if you host with PHP).
+- `index.html` – Main landing page.
+- `index.php` – Wrapper to serve the site with PHP.
 - `contact.php` – Handles form submissions.
-- `public/` – Static assets (images, demo files, PDFs).
-- `src/` – React + TypeScript source.
-- `src/styles/style.css` – Styling rules.
+- `css/style.css` – Styling rules.
+- `js/` – JavaScript for animations and charts.
+- `images/` – Website assets.
 
 ## Running Locally
-Install dependencies and start the dev server:
+Clone the repository and open `index.html` in a browser for a quick preview. To use the contact form, start a local PHP server:
 
 ```bash
-npm install
-npm run dev
+php -S localhost:8000
 ```
 
-Then open the URL printed by Vite (usually `http://localhost:5173`).
-
-## Build for Production
-Create an optimized production build:
-
-```bash
-npm run build
-```
-
-The output is written to the `dist/` directory.
-
-## Create a ZIP for AWS Amplify Manual Deploy
-If you want to upload a ZIP file directly in the AWS Amplify console, follow these steps after running the build:
-
-1. Build the site:
-   ```bash
-   npm run build
-   ```
-2. Create a ZIP that contains the contents of the `dist/` folder (not the folder itself):
-   ```bash
-   cd dist
-   zip -r ../portfolio-dist.zip .
-   cd ..
-   ```
-3. In the Amplify console, choose **Deploy without Git provider** and upload `portfolio-dist.zip`.
+Then navigate to `http://localhost:8000` in your browser.
 
 ---
-Built with React, TypeScript, Vite, and PHP (for the contact form).
+Built with HTML, CSS, JavaScript and PHP.
